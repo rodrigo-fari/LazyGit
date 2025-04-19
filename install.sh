@@ -21,6 +21,7 @@ if ! echo "$PATH" | grep -q "$INSTALL_DIR"; then
   echo "✅ Added $INSTALL_DIR to PATH in .bashrc/.zshrc."
 fi
 
+clear
 echo
 echo "✅ LazyGit installed! You can now use the 'gpush' command."
 
